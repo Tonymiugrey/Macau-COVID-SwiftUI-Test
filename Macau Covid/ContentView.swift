@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-var body: some View {
+    @State var isMapPresented = false
+    
+    var body: some View {
         NavigationView {
             ScrollView(showsIndicators: true) {
                 VStack(alignment: .leading, spacing: 24) {
@@ -54,25 +56,42 @@ var body: some View {
                     .padding(.leading)
                     
                     VStack(alignment: .center, spacing: 24.0) {
-                        Text("{MAP_MapKit}")
-                            .frame(width: 356.0, height: 180.0)
-                            .background {
-                                Rectangle()
-                                    .frame(width: 356.0, height: 180.0)
-                                    .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.909))
-                                    .cornerRadius(12)
-                                    .shadow(color: Color(hue: 1.0, saturation: 0.0, brightness: 0.216, opacity: 0.2), radius: 6, x: 0, y: 0)
-                            }
-                        
-                        Text("{MAP_Web}")
-                            .frame(width: 356.0, height: 72.0)
-                            .background {
-                                Rectangle()
-                                    .frame(width: 356.0, height: 72.0)
-                                    .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.909))
-                                    .cornerRadius(12)
-                                    .shadow(color: Color(hue: 1.0, saturation: 0.0, brightness: 0.216, opacity: 0.2), radius: 6, x: 0, y: 0)
-                            }
+                        Button(action:{
+                            
+                        }) {
+                            Text("{MAP_Native}")
+                                .foregroundColor(.black)
+                                .frame(width: 356.0, height: 180.0)
+                                .background {
+                                    Rectangle()
+                                        .frame(width: 356.0, height: 180.0)
+                                        .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.909))
+                                        .cornerRadius(12)
+                                        .shadow(color: Color(hue: 1.0, saturation: 0.0, brightness: 0.216, opacity: 0.2), radius: 6, x: 0, y: 0)
+                                }
+                            
+                        }
+
+                        Button(action:{
+                            self.isMapPresented = true
+                        }) {
+                            Text("Map in Web (by Wilson, temporary not work in webview...)")
+                                .foregroundColor(.black)
+                                .multilineTextAlignment(.leading)
+                                .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                                .frame(width: 356.0, height: 72.0)
+                                .background {
+                                    Rectangle()
+                                        .frame(width: 356.0, height: 72.0)
+                                        .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.909))
+                                        .cornerRadius(12)
+                                        .shadow(color: Color(hue: 1.0, saturation: 0.0, brightness: 0.216, opacity: 0.2), radius: 6, x: 0, y: 0)
+                                }
+                        }
+                        .fullScreenCover(isPresented: self.$isMapPresented) {
+                            WebViewPage()
+                        }
+
                         
                     }
                     .padding(.leading)

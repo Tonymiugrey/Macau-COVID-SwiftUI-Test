@@ -14,6 +14,7 @@
 		DA6B3BE2286EA15E00683655 /* Macau_CovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BE1286EA15E00683655 /* Macau_CovidTests.swift */; };
 		DA6B3BEC286EA15E00683655 /* Macau_CovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BEB286EA15E00683655 /* Macau_CovidUITests.swift */; };
 		DA6B3BEE286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BED286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift */; };
+		DADA77B8286F0006007DEBF4 /* WebPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA77B7286F0006007DEBF4 /* WebPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DA6B3BE7286EA15E00683655 /* Macau CovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macau CovidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6B3BEB286EA15E00683655 /* Macau_CovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidUITests.swift; sourceTree = "<group>"; };
 		DA6B3BED286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DADA77B7286F0006007DEBF4 /* WebPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				DA6B3BD0286EA15700683655 /* Macau_CovidApp.swift */,
 				DA6B3BD2286EA15700683655 /* ContentView.swift */,
+				DADA77B7286F0006007DEBF4 /* WebPageView.swift */,
 				DA6B3BD4286EA15D00683655 /* Assets.xcassets */,
 				DA6B3BD6286EA15D00683655 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADA77B8286F0006007DEBF4 /* WebPageView.swift in Sources */,
 				DA6B3BD3286EA15700683655 /* ContentView.swift in Sources */,
 				DA6B3BD1286EA15700683655 /* Macau_CovidApp.swift in Sources */,
 			);
