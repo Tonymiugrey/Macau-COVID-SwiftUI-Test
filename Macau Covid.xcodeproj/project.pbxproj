@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA6B3BD1286EA15700683655 /* Macau_CovidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BD0286EA15700683655 /* Macau_CovidApp.swift */; };
+		DA6B3BD3286EA15700683655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BD2286EA15700683655 /* ContentView.swift */; };
+		DA6B3BD5286EA15D00683655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6B3BD4286EA15D00683655 /* Assets.xcassets */; };
+		DA6B3BD8286EA15D00683655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6B3BD7286EA15D00683655 /* Preview Assets.xcassets */; };
+		DA6B3BE2286EA15E00683655 /* Macau_CovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BE1286EA15E00683655 /* Macau_CovidTests.swift */; };
+		DA6B3BEC286EA15E00683655 /* Macau_CovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BEB286EA15E00683655 /* Macau_CovidUITests.swift */; };
+		DA6B3BEE286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BED286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA6B3BDE286EA15E00683655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6B3BC5286EA15700683655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6B3BCC286EA15700683655;
+			remoteInfo = "Macau Covid";
+		};
+		DA6B3BE8286EA15E00683655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6B3BC5286EA15700683655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6B3BCC286EA15700683655;
+			remoteInfo = "Macau Covid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA6B3BCD286EA15700683655 /* Macau Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Macau Covid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B3BD0286EA15700683655 /* Macau_CovidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidApp.swift; sourceTree = "<group>"; };
+		DA6B3BD2286EA15700683655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA6B3BD4286EA15D00683655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA6B3BD7286EA15D00683655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA6B3BDD286EA15E00683655 /* Macau CovidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macau CovidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B3BE1286EA15E00683655 /* Macau_CovidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidTests.swift; sourceTree = "<group>"; };
+		DA6B3BE7286EA15E00683655 /* Macau CovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macau CovidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B3BEB286EA15E00683655 /* Macau_CovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidUITests.swift; sourceTree = "<group>"; };
+		DA6B3BED286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6B3BCA286EA15700683655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B3BDA286EA15E00683655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B3BE4286EA15E00683655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6B3BC4286EA15700683655 = {
+			isa = PBXGroup;
+			children = (
+				DA6B3BCF286EA15700683655 /* Macau Covid */,
+				DA6B3BE0286EA15E00683655 /* Macau CovidTests */,
+				DA6B3BEA286EA15E00683655 /* Macau CovidUITests */,
+				DA6B3BCE286EA15700683655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6B3BCE286EA15700683655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B3BCD286EA15700683655 /* Macau Covid.app */,
+				DA6B3BDD286EA15E00683655 /* Macau CovidTests.xctest */,
+				DA6B3BE7286EA15E00683655 /* Macau CovidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6B3BCF286EA15700683655 /* Macau Covid */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B3BD0286EA15700683655 /* Macau_CovidApp.swift */,
+				DA6B3BD2286EA15700683655 /* ContentView.swift */,
+				DA6B3BD4286EA15D00683655 /* Assets.xcassets */,
+				DA6B3BD6286EA15D00683655 /* Preview Content */,
+			);
+			path = "Macau Covid";
+			sourceTree = "<group>";
+		};
+		DA6B3BD6286EA15D00683655 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B3BD7286EA15D00683655 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA6B3BE0286EA15E00683655 /* Macau CovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B3BE1286EA15E00683655 /* Macau_CovidTests.swift */,
+			);
+			path = "Macau CovidTests";
+			sourceTree = "<group>";
+		};
+		DA6B3BEA286EA15E00683655 /* Macau CovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B3BEB286EA15E00683655 /* Macau_CovidUITests.swift */,
+				DA6B3BED286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift */,
+			);
+			path = "Macau CovidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6B3BCC286EA15700683655 /* Macau Covid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6B3BF1286EA15E00683655 /* Build configuration list for PBXNativeTarget "Macau Covid" */;
+			buildPhases = (
+				DA6B3BC9286EA15700683655 /* Sources */,
+				DA6B3BCA286EA15700683655 /* Frameworks */,
+				DA6B3BCB286EA15700683655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macau Covid";
+			productName = "Macau Covid";
+			productReference = DA6B3BCD286EA15700683655 /* Macau Covid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA6B3BDC286EA15E00683655 /* Macau CovidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6B3BF4286EA15E00683655 /* Build configuration list for PBXNativeTarget "Macau CovidTests" */;
+			buildPhases = (
+				DA6B3BD9286EA15E00683655 /* Sources */,
+				DA6B3BDA286EA15E00683655 /* Frameworks */,
+				DA6B3BDB286EA15E00683655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6B3BDF286EA15E00683655 /* PBXTargetDependency */,
+			);
+			name = "Macau CovidTests";
+			productName = "Macau CovidTests";
+			productReference = DA6B3BDD286EA15E00683655 /* Macau CovidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA6B3BE6286EA15E00683655 /* Macau CovidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6B3BF7286EA15E00683655 /* Build configuration list for PBXNativeTarget "Macau CovidUITests" */;
+			buildPhases = (
+				DA6B3BE3286EA15E00683655 /* Sources */,
+				DA6B3BE4286EA15E00683655 /* Frameworks */,
+				DA6B3BE5286EA15E00683655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6B3BE9286EA15E00683655 /* PBXTargetDependency */,
+			);
+			name = "Macau CovidUITests";
+			productName = "Macau CovidUITests";
+			productReference = DA6B3BE7286EA15E00683655 /* Macau CovidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6B3BC5286EA15700683655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DA6B3BCC286EA15700683655 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DA6B3BDC286EA15E00683655 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DA6B3BCC286EA15700683655;
+					};
+					DA6B3BE6286EA15E00683655 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DA6B3BCC286EA15700683655;
+					};
+				};
+			};
+			buildConfigurationList = DA6B3BC8286EA15700683655 /* Build configuration list for PBXProject "Macau Covid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA6B3BC4286EA15700683655;
+			productRefGroup = DA6B3BCE286EA15700683655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6B3BCC286EA15700683655 /* Macau Covid */,
+				DA6B3BDC286EA15E00683655 /* Macau CovidTests */,
+				DA6B3BE6286EA15E00683655 /* Macau CovidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA6B3BCB286EA15700683655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B3BD8286EA15D00683655 /* Preview Assets.xcassets in Resources */,
+				DA6B3BD5286EA15D00683655 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B3BDB286EA15E00683655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B3BE5286EA15E00683655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6B3BC9286EA15700683655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B3BD3286EA15700683655 /* ContentView.swift in Sources */,
+				DA6B3BD1286EA15700683655 /* Macau_CovidApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B3BD9286EA15E00683655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B3BE2286EA15E00683655 /* Macau_CovidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B3BE3286EA15E00683655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B3BEE286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift in Sources */,
+				DA6B3BEC286EA15E00683655 /* Macau_CovidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA6B3BDF286EA15E00683655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6B3BCC286EA15700683655 /* Macau Covid */;
+			targetProxy = DA6B3BDE286EA15E00683655 /* PBXContainerItemProxy */;
+		};
+		DA6B3BE9286EA15E00683655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6B3BCC286EA15700683655 /* Macau Covid */;
+			targetProxy = DA6B3BE8286EA15E00683655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA6B3BEF286EA15E00683655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA6B3BF0286EA15E00683655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA6B3BF2286EA15E00683655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Macau Covid/Preview Content\"";
+				DEVELOPMENT_TEAM = HEUZ3URRQ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA6B3BF3286EA15E00683655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Macau Covid/Preview Content\"";
+				DEVELOPMENT_TEAM = HEUZ3URRQ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA6B3BF5286EA15E00683655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HEUZ3URRQ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macau Covid.app/Macau Covid";
+			};
+			name = Debug;
+		};
+		DA6B3BF6286EA15E00683655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HEUZ3URRQ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macau Covid.app/Macau Covid";
+			};
+			name = Release;
+		};
+		DA6B3BF8286EA15E00683655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HEUZ3URRQ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Macau Covid";
+			};
+			name = Debug;
+		};
+		DA6B3BF9286EA15E00683655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HEUZ3URRQ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Macau Covid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6B3BC8286EA15700683655 /* Build configuration list for PBXProject "Macau Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B3BEF286EA15E00683655 /* Debug */,
+				DA6B3BF0286EA15E00683655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6B3BF1286EA15E00683655 /* Build configuration list for PBXNativeTarget "Macau Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B3BF2286EA15E00683655 /* Debug */,
+				DA6B3BF3286EA15E00683655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6B3BF4286EA15E00683655 /* Build configuration list for PBXNativeTarget "Macau CovidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B3BF5286EA15E00683655 /* Debug */,
+				DA6B3BF6286EA15E00683655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6B3BF7286EA15E00683655 /* Build configuration list for PBXNativeTarget "Macau CovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B3BF8286EA15E00683655 /* Debug */,
+				DA6B3BF9286EA15E00683655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6B3BC5286EA15700683655 /* Project object */;
+}
