@@ -75,7 +75,7 @@ struct ContentView: View {
                         Button(action:{
                             self.isMapPresented = true
                         }) {
-                            Text("Map in Web (by Wilson, temporary not work in webview...)")
+                            Text("Map in Web (by Wilson)")
                                 .foregroundColor(.black)
                                 .multilineTextAlignment(.leading)
                                 .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
