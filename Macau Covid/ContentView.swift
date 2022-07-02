@@ -20,9 +20,9 @@ struct ContentView: View {
                             .fontWeight(.bold)
                     }
                     .padding(.leading)
-
-                        
-                        
+                    
+                    
+                    
                     HStack (alignment: .center, spacing: 26.0) {
                         Text("{NUM_Current}")
                             .padding(.all)
@@ -71,14 +71,14 @@ struct ContentView: View {
                                 }
                             
                         }
-
+                        
                         Button(action:{
                             self.isMapPresented = true
                         }) {
                             Text("Map in Web (by Wilson)")
                                 .foregroundColor(.black)
                                 .multilineTextAlignment(.leading)
-                                .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                                .padding(.horizontal)
                                 .frame(width: 356.0, height: 72.0)
                                 .background {
                                     Rectangle()
@@ -91,11 +91,11 @@ struct ContentView: View {
                         .fullScreenCover(isPresented: self.$isMapPresented) {
                             WebViewPage()
                         }
-
+                        
                         
                     }
                     .padding(.leading)
-
+                    
                     Spacer()
                 }
                 .padding([.top, .trailing])

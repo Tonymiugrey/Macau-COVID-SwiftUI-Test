@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6EB15A3DBD342FA40719153 /* libPods-Macau Covid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 011D0FCE222BB4E0418F3A2D /* libPods-Macau Covid.a */; };
 		DA6B3BD1286EA15700683655 /* Macau_CovidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BD0286EA15700683655 /* Macau_CovidApp.swift */; };
 		DA6B3BD3286EA15700683655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BD2286EA15700683655 /* ContentView.swift */; };
 		DA6B3BD5286EA15D00683655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6B3BD4286EA15D00683655 /* Assets.xcassets */; };
@@ -15,9 +14,7 @@
 		DA6B3BE2286EA15E00683655 /* Macau_CovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BE1286EA15E00683655 /* Macau_CovidTests.swift */; };
 		DA6B3BEC286EA15E00683655 /* Macau_CovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BEB286EA15E00683655 /* Macau_CovidUITests.swift */; };
 		DA6B3BEE286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3BED286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift */; };
-		DA88D567286F5FE8003CA125 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DA88D566286F5FE8003CA125 /* Podfile */; };
 		DADA77B8286F0006007DEBF4 /* WebPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA77B7286F0006007DEBF4 /* WebPageView.swift */; };
-		DAE9C617286F53CE00375FD7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE9C616286F53CE00375FD7 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011D0FCE222BB4E0418F3A2D /* libPods-Macau Covid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Macau Covid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45EF4652AAD7F911F5A39873 /* Pods-Macau Covid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macau Covid.release.xcconfig"; path = "Target Support Files/Pods-Macau Covid/Pods-Macau Covid.release.xcconfig"; sourceTree = "<group>"; };
-		B0B8F50F7B25F13DC0CA2C29 /* Pods-Macau Covid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macau Covid.debug.xcconfig"; path = "Target Support Files/Pods-Macau Covid/Pods-Macau Covid.debug.xcconfig"; sourceTree = "<group>"; };
+		DA63E31828702F0F00254FBB /* Macau-Covid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Macau-Covid-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DA63E31F2870303A00254FBB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		DA6B3BCD286EA15700683655 /* Macau Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Macau Covid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6B3BD0286EA15700683655 /* Macau_CovidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidApp.swift; sourceTree = "<group>"; };
 		DA6B3BD2286EA15700683655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,10 +47,7 @@
 		DA6B3BE7286EA15E00683655 /* Macau CovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macau CovidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6B3BEB286EA15E00683655 /* Macau_CovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidUITests.swift; sourceTree = "<group>"; };
 		DA6B3BED286EA15E00683655 /* Macau_CovidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macau_CovidUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DA88D566286F5FE8003CA125 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DAA29E23286F5CE6009EC47D /* Macau-Covid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Macau-Covid-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DADA77B7286F0006007DEBF4 /* WebPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageView.swift; sourceTree = "<group>"; };
-		DAE9C616286F53CE00375FD7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6EB15A3DBD342FA40719153 /* libPods-Macau Covid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,33 +75,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		213407590F42144D9CE18CD1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0B8F50F7B25F13DC0CA2C29 /* Pods-Macau Covid.debug.xcconfig */,
-				45EF4652AAD7F911F5A39873 /* Pods-Macau Covid.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		8DE35D54616262D012E91A73 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				011D0FCE222BB4E0418F3A2D /* libPods-Macau Covid.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		DA6B3BC4286EA15700683655 = {
 			isa = PBXGroup;
 			children = (
-				DA88D566286F5FE8003CA125 /* Podfile */,
 				DA6B3BCF286EA15700683655 /* Macau Covid */,
 				DA6B3BE0286EA15E00683655 /* Macau CovidTests */,
 				DA6B3BEA286EA15E00683655 /* Macau CovidUITests */,
 				DA6B3BCE286EA15700683655 /* Products */,
-				213407590F42144D9CE18CD1 /* Pods */,
-				8DE35D54616262D012E91A73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,10 +98,10 @@
 		DA6B3BCF286EA15700683655 /* Macau Covid */ = {
 			isa = PBXGroup;
 			children = (
-				DAA29E23286F5CE6009EC47D /* Macau-Covid-Info.plist */,
+				DA63E31828702F0F00254FBB /* Macau-Covid-Info.plist */,
 				DA6B3BD0286EA15700683655 /* Macau_CovidApp.swift */,
+				DA63E31F2870303A00254FBB /* MapView.swift */,
 				DA6B3BD2286EA15700683655 /* ContentView.swift */,
-				DAE9C616286F53CE00375FD7 /* MapView.swift */,
 				DADA77B7286F0006007DEBF4 /* WebPageView.swift */,
 				DA6B3BD4286EA15D00683655 /* Assets.xcassets */,
 				DA6B3BD6286EA15D00683655 /* Preview Content */,
@@ -169,11 +141,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6B3BF1286EA15E00683655 /* Build configuration list for PBXNativeTarget "Macau Covid" */;
 			buildPhases = (
-				EE2B9D7799DDC09E464A4602 /* [CP] Check Pods Manifest.lock */,
 				DA6B3BC9286EA15700683655 /* Sources */,
 				DA6B3BCA286EA15700683655 /* Frameworks */,
 				DA6B3BCB286EA15700683655 /* Resources */,
-				29CB924DE3AF9FFBC57A77A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA88D567286F5FE8003CA125 /* Podfile in Resources */,
 				DA6B3BD8286EA15D00683655 /* Preview Assets.xcassets in Resources */,
 				DA6B3BD5286EA15D00683655 /* Assets.xcassets in Resources */,
 			);
@@ -290,55 +259,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		29CB924DE3AF9FFBC57A77A2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Macau Covid/Pods-Macau Covid-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Macau Covid/Pods-Macau Covid-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Macau Covid/Pods-Macau Covid-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EE2B9D7799DDC09E464A4602 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Macau Covid-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		DA6B3BC9286EA15700683655 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DADA77B8286F0006007DEBF4 /* WebPageView.swift in Sources */,
-				DAE9C617286F53CE00375FD7 /* MapView.swift in Sources */,
 				DA6B3BD3286EA15700683655 /* ContentView.swift in Sources */,
 				DA6B3BD1286EA15700683655 /* Macau_CovidApp.swift in Sources */,
 			);
@@ -493,7 +419,6 @@
 		};
 		DA6B3BF2286EA15E00683655 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0B8F50F7B25F13DC0CA2C29 /* Pods-Macau Covid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -502,8 +427,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Macau Covid/Preview Content\"";
 				DEVELOPMENT_TEAM = HEUZ3URRQ5;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macau-Covid-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "使用位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "使用位置";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -515,6 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-Covid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -525,7 +457,6 @@
 		};
 		DA6B3BF3286EA15E00683655 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45EF4652AAD7F911F5A39873 /* Pods-Macau Covid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -534,8 +465,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Macau Covid/Preview Content\"";
 				DEVELOPMENT_TEAM = HEUZ3URRQ5;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macau-Covid-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "使用位置";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "使用位置";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -547,6 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miugrey.Macau-Covid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
