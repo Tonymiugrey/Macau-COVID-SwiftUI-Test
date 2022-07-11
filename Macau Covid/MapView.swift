@@ -8,13 +8,26 @@
 import SwiftUI
 import BaiduMapAPI_Map
 import BaiduMapAPI_Base
+import Combine
 
+final class SliderData: ObservableObject {
+
+  let didChange = PassthroughSubject<SliderData,Never>()
+
+    @Published var sliderValue: Double = 7 {
+    willSet {
+      print(newValue)
+      didChange.send(self)
+    }
+  }
+}
 
 
 class MapViewController: UIViewController, BMKMapViewDelegate {
     
     var mapView: BMKMapView?
-    @State var time: Double = MapView().time
+    @EnvironmentObject var sliderData: SliderData
+    var t = SliderData().sliderValue
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +39,8 @@ class MapViewController: UIViewController, BMKMapViewDelegate {
         mapView?.zoomLevel = 15
         mapView?.centerCoordinate = CLLocationCoordinate2D(latitude: 22.146951, longitude: 113.564090)
         mapView?.overlooking = -40
+        
+        
         
         // 读取数据
         let jsonData = NSData(contentsOfFile: Bundle.main.path(forResource: "locations", ofType: "json")!)
@@ -39,20 +54,24 @@ class MapViewController: UIViewController, BMKMapViewDelegate {
                 let heatData = NSMutableArray()
                 
                 for dic in array!{
-                    // 创建 BMKHeatMapNode
-                    let heatMapNode = BMKHeatMapNode()
-                    NSLog("JSON测试")
-                    print(dic["timeframe"]!, dic["lat"]!, dic["lng"]!)
-                    
-                    let coordinate = CLLocationCoordinate2DMake(dic["lat"]!, dic["lng"]!)
-                    heatMapNode.pt = coordinate
-                    // 随机生成点强度
-                    heatMapNode.intensity = Double(arc4random())
-                    // 添加 BMKHeatMapNode 到数组
-                    heatData.add(heatMapNode)
+                    if dic["timeframe"]! == t {
+                        // 创建 BMKHeatMapNode
+                        let heatMapNode = BMKHeatMapNode()
+                        NSLog("JSON测试")
+                        print(dic["timeframe"]!, dic["lat"]!, dic["lng"]!)
                         
+                        let coordinate = CLLocationCoordinate2DMake(dic["lat"]!, dic["lng"]!)
+                        heatMapNode.pt = coordinate
+                        // 随机生成点强度
+                        heatMapNode.intensity = Double(arc4random())
+                        // 添加 BMKHeatMapNode 到数组
+                        
+                        heatData.add(heatMapNode)
+                        
+                    }
                     
-
+                        
+    
                 }
                 
                 heatMap.mData = (heatData as! [BMKHeatMapNode])
@@ -99,33 +118,45 @@ struct MapViewPresenter: UIViewControllerRepresentable {
 }
 
 struct MapMiniView: View {
+    @EnvironmentObject var sliderData: SliderData
     var body: some View {
         MapViewPresenter()
+            .environmentObject(SliderData())
         
     }
 }
 
+
+
+
 struct MapView: View {
     @Environment(\.presentationMode) var presentationMode
-    @State var time: Double = 1
+    @EnvironmentObject var sliderData: SliderData
+    
     var body: some View {
         VStack(alignment: .leading) {
             Button("Done") {
                 self.presentationMode.wrappedValue.dismiss()
             }
             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
             
             MapViewPresenter()
+                .environmentObject(sliderData)
             
-            Slider(value: self.$time, in: 1...11, step: 1)
+            Slider(value: $sliderData.sliderValue, in: 1...11, step: 1)
                 .padding(/*@START_MENU_TOKEN@*/.all, 46.0/*@END_MENU_TOKEN@*/)
+            
+
         }
+        
     }
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         MapView()
+            .environmentObject(SliderData())
             .previewDevice("iPhone 13 Pro")
     }
 }

@@ -33,6 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, BMKGeneralDelegate {
 @main
 struct Macau_CovidApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
